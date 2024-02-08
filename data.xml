@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "./data.dtd">
+<catalog authors="Aimar &amp; Ryan">
+    <brands>
+        <brand id="b001" location="Europe">TechMaster</brand>
+        <brand id="b002" location="NorthAmerica">InnoBook</brand>
+        <brand id="b004" location="Asia">GameBeast</brand>
+        <brand id="b005" location="Africa">EvoTech</brand>
+        <brand id="b008" location="SouthAmerica">SpeedLink</brand>
+        <brand id="b009" location="Australia">PixelPro</brand>
+        <brand id="b010" location="Antarctica">SoundSync</brand>
+        <brand id="b011" location="Europe">BeatWave</brand>
+    </brands>
+    <category>
+        <categoryName>Laptops</categoryName>
+        <products>
+            <product id="p001">
+                <productName>High-Performance Laptop</productName>
+                <brandref id="b001" />
+                <price>1499.99</price>
+                <discount>300.00</discount>
+                <image>images/High-Performance_Laptop.png</image>
+                <url>product_url1</url>
+            </product>
+            <product id="p002">
+                <productName>Budget Laptop</productName>
+                <brandref id="b002" />
+                <price>899.99</price>
+                <image>images/Budget_Laptop.png</image>
+                <url>product_url2</url>
+            </product>
+            <product id="p007">
+                <productName>Ultra-Slim Laptop</productName>
+                <brandref id="b004" />
+                <price>1299.99</price>
+                <image>images/Ultra-Slim_Laptop.png</image>
+                <url>product_url7</url>
+            </product>
+            <product id="p008">
+                <productName>Gaming Laptop</productName>
+                <brandref id="b005" />
+                <price>1999.99</price>
+                <image>images/Gaming_Laptop.png</image>
+                <url>product_url8</url>
+            </product>
+        </products>
+    </category>
+    <category>
+        <categoryName>Smartphones</categoryName>
+        <products>
+            <product id="p003">
+                <productName>Flagship Smartphone</productName>
+                <brandref id="b008" />
+                <price>799.99</price>
+                <image>images/Flagship_Smartphone.png</image>
+                <url>product_url3</url>
+            </product>
+            <product id="p004">
+                <productName>Mid-Range Smartphone</productName>
+                <brandref id="b009" />
+                <price>499.99</price>
+                <image>images/Mid-Range_Smartphone.png</image>
+                <url>product_url4</url>
+            </product>
+            <product id="p005">
+                <productName>Budget Smartphone</productName>
+                <brandref id="b010" />
+                <price>299.99</price>
+                <image>images/Budget_Smartphone.png</image>
+                <url>product_url5</url>
+            </product>
+            <product id="p009">
+                <productName>5G Smartphone</productName>
+                <brandref id="b011" />
+                <price>899.99</price>
+                <image>images/5G_Smartphone.png</image>
+                <url>product_url9</url>
+            </product>
+            <product id="p010">
+                <productName>Camera-centric Smartphone</productName>
+                <brandref id="b001" />
+                <price>1199.99</price>
+                <image>images/Camera-centric_Smartphone.png</image>
+                <url>product_url10</url>
+            </product>
+        </products>
+    </category>
+    <category>
+        <categoryName>Audio Devices</categoryName>
+        <products>
+            <product id="p006">
+                <productName>Wireless Headphones</productName>
+                <brandref id="b010" />
+                <price>129.99</price>
+                <discount>20.00</discount>
+                <image>images/Wireless_Headphones.png</image>
+                <url>product_url6</url>
+            </product>
+            <product id="p011">
+                <productName>Bluetooth Speaker</productName>
+                <brandref id="b011" />
+                <price>79.99</price>
+                <image>images/Bluetooth_Speaker.png</image>
+                <url>product_url11</url>
+            </product>
+            <product id="p012">
+                <productName>Noise-Canceling Headphones</productName>
+                <brandref id="b005" />
+                <price>179.99</price>
+                <image>images/Noise-Canceling_Headphones.png</image>
+                <url>product_url12</url>
+            </product>
+        </products>
+    </category>
+</catalog>
