@@ -1,0 +1,19 @@
+<!ELEMENT catalog (brands, category+)>
+<!ATTLIST catalog authors CDATA #FIXED "Aimar &amp; Ryan">
+<!ELEMENT brands (brand*)>
+<!ELEMENT brand (#PCDATA)>
+<!ATTLIST brand
+    id ID #REQUIRED
+    location (Africa|Antarctica|Asia|Australia|Europe|NorthAmerica|SouthAmerica) #REQUIRED>
+<!ELEMENT category (categoryName, products)>
+<!ELEMENT categoryName (#PCDATA)>
+<!ELEMENT products (product*)>
+<!ELEMENT product (productName, brandref, price, discount?, image, url)>
+<!ATTLIST product id ID #REQUIRED>
+<!ELEMENT productName (#PCDATA)>
+<!ELEMENT brandref EMPTY>
+<!ATTLIST brandref id IDREF #REQUIRED>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT discount (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
