@@ -1,5 +1,8 @@
 <!ELEMENT catalog (brands, category+)>
-<!ATTLIST catalog authors CDATA #FIXED "Aimar &amp; Ryan">
+<!ATTLIST catalog
+    authors CDATA #FIXED "Aimar &amp; Ryan"
+    xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
 <!ELEMENT brands (brand*)>
 <!ELEMENT brand (#PCDATA)>
 <!ATTLIST brand
