@@ -26,6 +26,7 @@
   - For each product/service, a link to an external web page with detailed information about it.
   - Price of the product/service plus the price after applying the VAT tax.
   - Discount applied to the products/services in the catalogue.
+
 - [ ] Is there a different XSL document from the previous one, which shows the list of products/services in the catalogue grouped by categories on the website?
 - [ ] Are all created XSL documents well-formed?
 - [ ] Is each and every XSL document created error free?
