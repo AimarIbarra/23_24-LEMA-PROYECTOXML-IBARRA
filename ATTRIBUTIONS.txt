@@ -1,0 +1,95 @@
+! Disclaimer:	All product names are fictional and any similarity with existing
+! 		brands and/or products are a mere coincidence.
+
+File:		images/High-Performance_Laptop.png
+Title:		Alienware 14 Gaming Laptop
+Author:		Cheon Fong Liew
+Source:		https://www.flickr.com/photos/liewcf/9116641903
+License:	CC BY-SA 2.0 Deed
+License-Copy:	licenses/CC_BY-SA_2.0_Deed
+License-Url:	https://creativecommons.org/licenses/by-sa/2.0/
+
+File:		images/Budget_Laptop.png
+Title:		Close up of open laptop on the table with mug of coffee
+Author:		rawpixel
+Source:		https://freerangestock.com/photos/121013/close-up-of-open-laptop-on-the-table-with-mug-of-coffee.html
+License:	Equalicense 1.0
+License-Copy:	licenses/Equalicense_1.0
+License-Url:	https://www.equalicense.com/the-license
+
+File:		images/Ultra-Slim_Laptop.png
+Title:		apple-desk-laptop-working
+Author:		https://www.flickr.com/people/137643065@N06
+Source:		https://commons.wikimedia.org/wiki/File:Apple-desk-laptop-working_%2823698803763%29.jpg
+License:	CC0 1.0 Deed
+License-Copy:	licenses/CC0_1.0_Deed
+License-Url:	https://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+File:		images/Gaming_Laptop.png
+Title:		Lenovo G500s laptop with German keyboard layout
+Author:		Raimond Spekking https://www.wikidata.org/wiki/Q108103612
+Source:		https://ia.m.wikipedia.org/wiki/File:Lenovo_G500s_laptop-2903.jpg
+License:	CC BY-SA 4.0 Deed
+License-Copy:	licenses/CC_BY-SA_4.0_Deed
+License-Url:	https://creativecommons.org/licenses/by-sa/4.0/
+
+File:		images/Flagship_Smartphone.png
+Title:		White Android Smartphone Near Black Android Smartphone
+Author:		John Tekeridis https://www.pexels.com/@john-tekeridis-21837/
+Source:		https://www.pexels.com/photo/white-android-smartphone-near-black-android-smartphone-215581/
+License:	Public Domain
+
+File:		images/Mid-Range_Smartphone.png
+Title:		Stock Im�genes Predise�adas Iales De Smartphone Vector Icon
+Author:		Vectorportal.com
+Source:		https://vectorportal.com/es/vector/im%C3%A1genes-predise%C3%B1adas-vectoriales-de-smartphone/13132
+License:	CC BY 4.0 Deed
+License-Copy:	licenses/CC_BY_4.0_Deed
+License-Url:	https://creativecommons.org/licenses/by/4.0/
+
+File:		images/Budget_Smartphone.png
+Title:		N/A
+Author:		charlie sorrel
+Source:		https://www.wired.com/2009/02/hands-on-with-1-2/
+License:	CC BY-NC-SA 4.0 Deed
+License-Copy:	licenses/CC_BY-NC-SA_4.0_Deed
+License-Url:	https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+File:		images/5G_Smartphone.png
+Title:		N/A
+Author:		Trusted Reviews
+Source:		https://www.trustedreviews.com/reviews/samsung-galaxy-a14-5g
+License:	CC BY-NC-ND 4.0 Deed
+License-Copy:	licenses/CC_BY-NC-ND_4.0_Deed
+License-Url:	https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+File:		images/Camera-centric_Smartphone.png
+Title:		N/A
+Author:		Trusted Reviews
+Source:		https://www.trustedreviews.com/best/best-camera-phones-3520817
+License:	CC BY-NC-ND 4.0 Deed
+License-Copy:	licenses/CC_BY-NC-ND_4.0_Deed
+License-Url:	https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+File:		images/Wireless_Headphones.png
+Title:		N/A
+Author:		Trusted Reviews
+Source:		https://www.trustedreviews.com/best/best-wireless-headphones-3450127
+License:	CC BY-NC-ND 4.0 Deed
+License-Copy:	licenses/CC_BY-NC-ND_4.0_Deed
+License-Url:	https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+File:		images/Bluetooth_Speaker.png
+Title:		N/A
+Author:		Trusted Reviews
+Source:		https://www.trustedreviews.com/best/best-bluetooth-speakers-3431819
+License:	CC BY-NC-ND 4.0 Deed
+License-Copy:	licenses/CC_BY-NC-ND_4.0_Deed
+License-Url:	https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+File:		images/Noise-Canceling_Headphones.png
+Title:		N/A
+Author:		Dipl.-Ing. Florian Fuchs
+License:	CC-BY-SA 3.0
+License-Copy:	licenses/CC-BY-SA_3.0 Deed
+License-Url:	https://creativecommons.org/licenses/by-sa/3.0/
