@@ -21,7 +21,7 @@
 - [ ] Is the same web template used for the rest of the website pages being used for the new catalogue pages?
 - [ ] If not using the template provided, is the template used on the website responsive?
 - [ ] Is an XSL document available that shows the following on the website?
-  - The list of all products/services in the catalogue \(HTML5 tags of type <ol>, <ul> or <table> can be used\).
+  - The list of all products/services in the catalogue \(HTML5 tags of type &lt;ol&gt;, &lt;ul&gt; or &lt;table&gt; can be used\).
   - The total number of products/services in the catalogue.
   - For each product/service, a link to an external web page with detailed information about it.
   - Price of the product/service plus the price after applying the VAT tax.
