@@ -59,7 +59,7 @@
 - [x] The name of the users committing to the GitHub repository must allow the identity of the member of the project team committing to the repository to be deduced.
 - [x] Each member of the project team shall have made at least 1 commit to the GitHub repository.
 - [ ] The GitHub repository shall record at least 5 commits made on different days prior to the submission of the
-project. (2 done)
+project. (3 done)
 - [x] The GitHub repository will have two branches: the main branch (the one that will be assessed by the teaching staff) and another one called develop (where the members of the project team will work on the development of the project by making a series of commits).
 - [ ] When publishing the final commit, do so from the main branch of the local repository, merging the contents of the develop branch into the main branch. The last commit of the develop branch must include a validation message that includes at least the word "final".
 - [ ] The URL of the GitHub repository where the project solution has been published has been indicated in the Moodle task of the project.
