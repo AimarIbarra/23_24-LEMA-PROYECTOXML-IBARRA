@@ -21,29 +21,29 @@
                 <brandref id="b001" />
                 <price>1499.99</price>
                 <discount>300.00</discount>
-                <image>images/High-Performance_Laptop.png</image>
-                <url>product_url1</url>
+                <image>High-Performance_Laptop.png</image>
+                <url>https://www.asus.com/es/laptops/for-creators/vivobook/vivobook-pro-16x-oled-k6604/</url>
             </product>
             <product id="p002">
                 <productName>Budget Laptop</productName>
                 <brandref id="b002" />
                 <price>899.99</price>
-                <image>images/Budget_Laptop.png</image>
-                <url>product_url2</url>
+                <image>Budget_Laptop.png</image>
+                <url>https://support.hp.com/hk-en/document/c06677346</url>
             </product>
             <product id="p007">
                 <productName>Ultra-Slim Laptop</productName>
                 <brandref id="b004" />
                 <price>1299.99</price>
-                <image>images/Ultra-Slim_Laptop.png</image>
-                <url>product_url7</url>
+                <image>Ultra-Slim_Laptop.png</image>
+                <url>https://www.lenovo.com/us/en/p/laptops/lenovo/lenovo_slim_series/lenovo-slim-pro-7-gen-8-(14-inch-amd)/len101l0040</url>
             </product>
             <product id="p008">
                 <productName>Gaming Laptop</productName>
                 <brandref id="b005" />
                 <price>1999.99</price>
-                <image>images/Gaming_Laptop.png</image>
-                <url>product_url8</url>
+                <image>Gaming_Laptop.png</image>
+                <url>https://www.razer.com/gaming-laptops/razer-blade-16</url>
             </product>
         </products>
     </category>
@@ -54,35 +54,35 @@
                 <productName>Flagship Smartphone</productName>
                 <brandref id="b008" />
                 <price>799.99</price>
-                <image>images/Flagship_Smartphone.png</image>
+                <image>Flagship_Smartphone.png</image>
                 <url>product_url3</url>
             </product>
             <product id="p004">
                 <productName>Mid-Range Smartphone</productName>
                 <brandref id="b009" />
                 <price>499.99</price>
-                <image>images/Mid-Range_Smartphone.png</image>
+                <image>Mid-Range_Smartphone.png</image>
                 <url>product_url4</url>
             </product>
             <product id="p005">
                 <productName>Budget Smartphone</productName>
                 <brandref id="b010" />
                 <price>299.99</price>
-                <image>images/Budget_Smartphone.png</image>
+                <image>Budget_Smartphone.png</image>
                 <url>product_url5</url>
             </product>
             <product id="p009">
                 <productName>5G Smartphone</productName>
                 <brandref id="b011" />
                 <price>899.99</price>
-                <image>images/5G_Smartphone.png</image>
+                <image>5G_Smartphone.png</image>
                 <url>product_url9</url>
             </product>
             <product id="p010">
                 <productName>Camera-centric Smartphone</productName>
                 <brandref id="b001" />
                 <price>1199.99</price>
-                <image>images/Camera-centric_Smartphone.png</image>
+                <image>Camera-centric_Smartphone.png</image>
                 <url>product_url10</url>
             </product>
         </products>
@@ -95,22 +95,22 @@
                 <brandref id="b010" />
                 <price>129.99</price>
                 <discount>20.00</discount>
-                <image>images/Wireless_Headphones.png</image>
-                <url>product_url6</url>
+                <image>Wireless_Headphones.png</image>
+                <url>https://rog.asus.com/es/headsets-audio/headsets/wireless-headsets/rog-delta-s-wireless-model/</url>
             </product>
             <product id="p011">
                 <productName>Bluetooth Speaker</productName>
                 <brandref id="b011" />
                 <price>79.99</price>
-                <image>images/Bluetooth_Speaker.png</image>
-                <url>product_url11</url>
+                <image>Bluetooth_Speaker.png</image>
+                <url>https://www.sony.es/wireless-speakers/gallery?cpint=wireless-speakers_primary_tout-PrimaryTout-en_GL-responsivegrid_initial_primarytout_1</url>
             </product>
             <product id="p012">
                 <productName>Noise-Canceling Headphones</productName>
                 <brandref id="b005" />
                 <price>179.99</price>
-                <image>images/Noise-Canceling_Headphones.png</image>
-                <url>product_url12</url>
+                <image>Noise-Canceling_Headphones.png</image>
+                <url>https://www.sony.es/electronics/diadema/wh-1000xm4?showModelPrices=true</url>
             </product>
         </products>
     </category>
