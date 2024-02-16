@@ -7,7 +7,7 @@
 - [x] Does the XML document created for the catalogue contain a minimum of 6 products/services arranged in at least 2 categories?
 - [x] Does the XML document contain any attribute?
 - [x] Does the XML document contain the path to the image of each product/service in the catalogue?
-- [ ] Does the XML document contain a link to a reference URL for every product/service within the catalogue?
+- [x] Does the XML document contain a link to a reference URL for every product/service within the catalogue?
 - [x] Is the XML document valid against the created DTD? (May change)
 - [x] Have at least 5 changes been made to the DTD compared to the one created by the Visual Studio Code editor? (Need to ask the teacher)
 - [x] Is well-formed the XML schema created for the validation of the XML document? (May change)
