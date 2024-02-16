@@ -16,7 +16,7 @@
 - [x] Is at least one of the XML schema restrictions of type pattern?
 - [x] Does the created XML schema contain at least 2 different predefined data types?
 - [x] Do any of the schema complex elements have a predefined or user-defined data type defined for their content?
-- [ ] Does the website have a single index page called index.html located at the root of its directory structure?
+- [x] Does the website have a single index page called index.html located at the root of its directory structure?
 - [ ] Does the navigation between all the pages of the website work: both the original and the new ones that will be obtained through XSL transformations?
 - [x] Is the same web template used for the rest of the website pages being used for the new catalogue pages?
 - [x] If not using the template provided, is the template used on the website responsive?
