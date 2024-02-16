@@ -55,35 +55,35 @@
                 <brandref id="b008" />
                 <price>799.99</price>
                 <image>Flagship_Smartphone.png</image>
-                <url>product_url3</url>
+                <url>https://www.samsung.com/es/smartphones/galaxy-s24/buy/</url>
             </product>
             <product id="p004">
                 <productName>Mid-Range Smartphone</productName>
                 <brandref id="b009" />
                 <price>499.99</price>
                 <image>Mid-Range_Smartphone.png</image>
-                <url>product_url4</url>
+                <url>https://store.google.com/es/product/pixel_7a?hl=es&pli=1</url>
             </product>
             <product id="p005">
                 <productName>Budget Smartphone</productName>
                 <brandref id="b010" />
                 <price>299.99</price>
                 <image>Budget_Smartphone.png</image>
-                <url>product_url5</url>
+                <url>https://www.motorola.es/smartphones-motorola-razr-2023-all</url>
             </product>
             <product id="p009">
                 <productName>5G Smartphone</productName>
                 <brandref id="b011" />
                 <price>899.99</price>
                 <image>5G_Smartphone.png</image>
-                <url>product_url9</url>
+                <url>https://tiendaonline.orange.es/ver-dispositivo/apple/iphone-12-mini-64gb-blanco-5g</url>
             </product>
             <product id="p010">
                 <productName>Camera-centric Smartphone</productName>
                 <brandref id="b001" />
                 <price>1199.99</price>
                 <image>Camera-centric_Smartphone.png</image>
-                <url>product_url10</url>
+                <url>https://www.samsung.com/es/smartphones/galaxy-s23-ultra/buy/</url>
             </product>
         </products>
     </category>
