@@ -27,7 +27,7 @@
     </xs:simpleType>
     <xs:simpleType name="imageSrcType">
         <xs:restriction base="xs:string">
-            <xs:pattern value="images/.+\.png" />
+            <xs:pattern value=".+\.png" />
         </xs:restriction>
     </xs:simpleType>
     <xs:element name="catalog">
