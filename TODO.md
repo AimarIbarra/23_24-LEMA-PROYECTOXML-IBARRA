@@ -27,7 +27,7 @@
   - Price of the product/service plus the price after applying the VAT tax.
   - Discount applied to the products/services in the catalogue.
 
-- [ ] Is there a different XSL document from the previous one, which shows the list of products/services in the catalogue grouped by categories on the website?
+- [x] Is there a different XSL document from the previous one, which shows the list of products/services in the catalogue grouped by categories on the website?
 - [x] Are all created XSL documents well-formed?
 - [x] Is each and every XSL document created error free?
 - [x] Are the XML file, the DTD document, the XML Schema and the different XSL documents stored in separate folders within the website?
@@ -61,5 +61,5 @@
 - [x] The GitHub repository shall record at least 5 commits made on different days prior to the submission of the
 project. (5 done)
 - [x] The GitHub repository will have two branches: the main branch (the one that will be assessed by the teaching staff) and another one called develop (where the members of the project team will work on the development of the project by making a series of commits).
-- [ ] When publishing the final commit, do so from the main branch of the local repository, merging the contents of the develop branch into the main branch. The last commit of the develop branch must include a validation message that includes at least the word "final".
-- [ ] The URL of the GitHub repository where the project solution has been published has been indicated in the Moodle task of the project.
+- [x] When publishing the final commit, do so from the main branch of the local repository, merging the contents of the develop branch into the main branch. The last commit of the develop branch must include a validation message that includes at least the word "final".
+- [x] The URL of the GitHub repository where the project solution has been published has been indicated in the Moodle task of the project.
