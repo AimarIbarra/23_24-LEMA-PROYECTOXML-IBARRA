@@ -15,8 +15,7 @@
           <xsl:for-each select="category/products/product">
             <div>
             <li><b>Nombre:</b><xsl:value-of select="productName"/></li>
-            <xsl:variable name="brandid" select="brandref/@id"/>
-            <li><b>Marca:</b><xsl:value-of select="/catalog/brands/brand[@id=$brandid]"/></li>
+            <li><b>Marca:</b><xsl:value-of select="/catalog/brands/brand[@id=@brand]"/></li>
             <li><b>Precio:</b><xsl:value-of select="price"/></li>
             <xsl:if test="exists(discount)">
               <li><b>Descuento:</b><xsl:value-of select="discount"/></li>
