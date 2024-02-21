@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE catalog SYSTEM "../dtd/data.dtd"> <!-- Declares the DTD (Document Type Definition) for the XML document -->
-
-<!-- Root element 'catalog' -->
-<catalog authors="Aimar &amp; Ryan" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:noNamespaceSchemaLocation="../xsd/data.xsd"> <!-- Location of the XML Schema Definition (XSD) -->
-
-    <!-- Element 'brands' containing various brand elements -->
+<!DOCTYPE catalog SYSTEM "../dtd/data.dtd">
+<catalog authors="Aimar &amp; Ryan"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/data.xsd">
     <brands>
-        <brand id="b001" location="Europe">TechMaster</brand> <!-- Brand information -->
+        <brand id="b001" location="Europe">TechMaster</brand>
         <brand id="b002" location="NorthAmerica">InnoBook</brand>
         <brand id="b004" location="Asia">GameBeast</brand>
         <brand id="b005" location="Africa">EvoTech</brand>
@@ -17,21 +13,93 @@
         <brand id="b010" location="Antarctica">SoundSync</brand>
         <brand id="b011" location="Europe">BeatWave</brand>
     </brands>
-
-    <!-- Element 'category' containing product categories -->
     <category>
-        <categoryName>Laptops</categoryName> <!-- Category name -->
-        <products> <!-- Products under 'Laptops' category -->
-            <product id="p001" brand="b001"> <!-- Product information -->
+        <categoryName>Laptops</categoryName>
+        <products>
+            <product id="p001" brand="b001">
                 <productName>High-Performance Laptop</productName>
                 <price>1499.99</price>
-                <discount>300.00</discount> <!-- Optional discount -->
+                <discount>300.00</discount>
                 <image>High-Performance_Laptop.png</image>
                 <url>https://www.asus.com/es/laptops/for-creators/vivobook/vivobook-pro-16x-oled-k6604/</url>
             </product>
-            <!-- Additional laptop products -->
+            <product id="p002" brand="b002">
+                <productName>Budget Laptop</productName>
+                <price>899.99</price>
+                <image>Budget_Laptop.png</image>
+                <url>https://support.hp.com/hk-en/document/c06677346</url>
+            </product>
+            <product id="p007" brand="b004">
+                <productName>Ultra-Slim Laptop</productName>
+                <price>1299.99</price>
+                <image>Ultra-Slim_Laptop.png</image>
+                <url>https://www.lenovo.com/us/en/p/laptops/lenovo/lenovo_slim_series/lenovo-slim-pro-7-gen-8-(14-inch-amd)/len101l0040</url>
+            </product>
+            <product id="p008" brand="b005">
+                <productName>Gaming Laptop</productName>
+                <price>1999.99</price>
+                <image>Gaming_Laptop.png</image>
+                <url>https://www.razer.com/gaming-laptops/razer-blade-16</url>
+            </product>
         </products>
     </category>
-
-    <!-- Additional categories and products (Smartphones and Audio Devices) follow with similar structure -->
+    <category>
+        <categoryName>Smartphones</categoryName>
+        <products>
+            <product id="p003" brand="b008">
+                <productName>Flagship Smartphone</productName>
+                <price>799.99</price>
+                <image>Flagship_Smartphone.png</image>
+                <url>https://www.samsung.com/es/smartphones/galaxy-s24/buy/</url>
+            </product>
+            <product id="p004" brand="b009">
+                <productName>Mid-Range Smartphone</productName>
+                <price>499.99</price>
+                <image>Mid-Range_Smartphone.png</image>
+                <url>https://store.google.com/es/product/pixel_7a?hl=es&amp;pli=1</url>
+            </product>
+            <product id="p005" brand="b010">
+                <productName>Budget Smartphone</productName>
+                <price>299.99</price>
+                <image>Budget_Smartphone.png</image>
+                <url>https://www.motorola.es/smartphones-motorola-razr-2023-all</url>
+            </product>
+            <product id="p009" brand="b011">
+                <productName>5G Smartphone</productName>
+                <price>899.99</price>
+                <image>5G_Smartphone.png</image>
+                <url>https://tiendaonline.orange.es/ver-dispositivo/apple/iphone-12-mini-64gb-blanco-5g</url>
+            </product>
+            <product id="p010" brand="b001">
+                <productName>Camera-centric Smartphone</productName>
+                <price>1199.99</price>
+                <image>Camera-centric_Smartphone.png</image>
+                <url>https://www.samsung.com/es/smartphones/galaxy-s23-ultra/buy/</url>
+            </product>
+        </products>
+    </category>
+    <category>
+        <categoryName>Audio Devices</categoryName>
+        <products>
+            <product id="p006" brand="b010">
+                <productName>Wireless Headphones</productName>
+                <price>129.99</price>
+                <discount>20.00</discount>
+                <image>Wireless_Headphones.png</image>
+                <url>https://rog.asus.com/es/headsets-audio/headsets/wireless-headsets/rog-delta-s-wireless-model/</url>
+            </product>
+            <product id="p011" brand="b011">
+                <productName>Bluetooth Speaker</productName>
+                <price>79.99</price>
+                <image>Bluetooth_Speaker.png</image>
+                <url>https://www.sony.es/wireless-speakers/gallery?cpint=wireless-speakers_primary_tout-PrimaryTout-en_GL-responsivegrid_initial_primarytout_1</url>
+            </product>
+            <product id="p012" brand="b005">
+                <productName>Noise-Canceling Headphones</productName>
+                <price>179.99</price>
+                <image>Noise-Canceling_Headphones.png</image>
+                <url>https://www.sony.es/electronics/diadema/wh-1000xm4?showModelPrices=true</url>
+            </product>
+        </products>
+    </category>
 </catalog>
