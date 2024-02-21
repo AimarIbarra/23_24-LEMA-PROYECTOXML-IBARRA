@@ -27,6 +27,7 @@
               <a href="/web/smartphone.html">Smartphones</a>
               <a href="/web/audio-devices.html">Audio Devices</a>
               <a href="/web/laptops.html">Laptops</a>
+              <a href="/web/grouped.html">Better Catalog</a>
               <a href="/web/contact.html">Contact Us</a>
             </nav>
           </div>
@@ -42,7 +43,7 @@
                  <xsl:sort> -->
           <xsl:for-each select="category">
             <table>
-              <caption><xsl:value-of select="categoryName" /></caption>
+              <caption style="border: solid 1px red"><xsl:value-of select="categoryName" /></caption>
               <tr>
                 <th>Name</th>
                 <th>Brand</th>
