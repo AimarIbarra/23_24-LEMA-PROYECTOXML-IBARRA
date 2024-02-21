@@ -11,10 +11,11 @@
 <!ELEMENT category (categoryName, products)>
 <!ELEMENT categoryName (#PCDATA)>
 <!ELEMENT products (product*)>
-<!ELEMENT product (productName, brandref, price, discount?, image, url)>
-<!ATTLIST product id ID #REQUIRED>
+<!ELEMENT product (productName, price, discount?, image, url)>
+<!ATTLIST product
+    id ID #REQUIRED
+    brand IDREF #REQUIRED>
 <!ELEMENT productName (#PCDATA)>
-<!ELEMENT brandref EMPTY>
 <!ATTLIST brandref id IDREF #REQUIRED>
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT discount (#PCDATA)>

@@ -62,17 +62,13 @@
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="productName" type="xs:string" />
-                                                    <xs:element name="brandref">
-                                                        <xs:complexType>
-                                                            <xs:attribute name="id" type="xs:IDREF"/>
-                                                        </xs:complexType>
-                                                    </xs:element>
                                                     <xs:element name="price" type="xs:decimal" />
                                                     <xs:element name="discount" type="xs:decimal" minOccurs="0"/>
                                                     <xs:element name="image" type="imageSrcType" />
                                                     <xs:element name="url" type="xs:anyURI" />
                                                 </xs:sequence>
                                                 <xs:attribute name="id" type="productIdType" />
+                                                <xs:attribute name="brand" type="xs:IDREF" />
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>

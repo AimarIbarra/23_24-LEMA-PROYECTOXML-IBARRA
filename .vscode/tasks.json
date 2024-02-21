@@ -7,7 +7,7 @@
 			"saxonJar": "${config:XSLT.tasks.saxonJar}",
 			"xsltFile": "${command:xslt-xpath.pickXsltFile}",
 			"xmlSource": "${workspaceFolder}/xml/data.xml",
-			"resultPath": "${workspaceFolder}/xsl-out/result1.html",
+			"resultPath": "${workspaceFolder}/web/prueba.html",
 			"allowSyntaxExtensions40": "off",
 			"messageEscaping": "adaptive",
 			"group": {
