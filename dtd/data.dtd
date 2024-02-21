@@ -1,23 +1,53 @@
+<!-- Define the structure of the XML document -->
+
+<!-- Define the 'catalog' element, which contains 'brands' and 'category' elements -->
 <!ELEMENT catalog (brands, category+)>
+
+<!-- Declare attributes for the 'catalog' element -->
 <!ATTLIST catalog
-    authors CDATA #FIXED "Aimar &amp; Ryan"
-    xmlns:xsi CDATA #IMPLIED
-    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+    authors CDATA #FIXED "Aimar &amp; Ryan" 
+    xmlns:xsi CDATA #IMPLIED 
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED> <!-- Location of the schema -->
+
+<!-- Define the 'brands' element, which contains zero or more 'brand' elements -->
 <!ELEMENT brands (brand*)>
+
+<!-- Define the 'brand' element, which contains text content -->
 <!ELEMENT brand (#PCDATA)>
+
+<!-- Declare attributes for the 'brand' element -->
 <!ATTLIST brand
-    id ID #REQUIRED
-    location (Africa|Antarctica|Asia|Australia|Europe|NorthAmerica|SouthAmerica) #REQUIRED>
+    id ID #REQUIRED 
+    location (Africa|Antarctica|Asia|Australia|Europe|NorthAmerica|SouthAmerica) #REQUIRED> <!-- Location where the brand is based -->
+
+<!-- Define the 'category' element, which contains 'categoryName' and 'products' elements -->
 <!ELEMENT category (categoryName, products)>
+
+<!-- Define the 'categoryName' element, which contains text content -->
 <!ELEMENT categoryName (#PCDATA)>
+
+<!-- Define the 'products' element, which contains zero or more 'product' elements -->
 <!ELEMENT products (product*)>
+
+<!-- Define the 'product' element, which contains 'productName', 'price', 'discount', 'image', and 'url' elements -->
 <!ELEMENT product (productName, price, discount?, image, url)>
+
+<!-- Declare attributes for the 'product' element -->
 <!ATTLIST product
     id ID #REQUIRED
-    brand IDREF #REQUIRED>
+    brand IDREF #REQUIRED> <!-- Reference to the brand of the product -->
+
+<!-- Define the 'productName' element, which contains text content -->
 <!ELEMENT productName (#PCDATA)>
-<!ATTLIST brandref id IDREF #REQUIRED>
+
+<!-- Define the 'price' element, which contains text content -->
 <!ELEMENT price (#PCDATA)>
+
+<!-- Define the 'discount' element, which contains text content (optional) -->
 <!ELEMENT discount (#PCDATA)>
+
+<!-- Define the 'image' element, which contains text content -->
 <!ELEMENT image (#PCDATA)>
+
+<!-- Define the 'url' element, which contains text content -->
 <!ELEMENT url (#PCDATA)>

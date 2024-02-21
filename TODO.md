@@ -17,10 +17,10 @@
 - [x] Does the created XML schema contain at least 2 different predefined data types?
 - [x] Do any of the schema complex elements have a predefined or user-defined data type defined for their content?
 - [x] Does the website have a single index page called index.html located at the root of its directory structure?
-- [ ] Does the navigation between all the pages of the website work: both the original and the new ones that will be obtained through XSL transformations?
+- [x] Does the navigation between all the pages of the website work: both the original and the new ones that will be obtained through XSL transformations?
 - [x] Is the same web template used for the rest of the website pages being used for the new catalogue pages?
 - [x] If not using the template provided, is the template used on the website responsive?
-- [ ] Is an XSL document available that shows the following on the website?
+- [x] Is an XSL document available that shows the following on the website?
   - The list of all products/services in the catalogue \(HTML5 tags of type &lt;ol&gt;, &lt;ul&gt; or &lt;table&gt; can be used\).
   - The total number of products/services in the catalogue.
   - For each product/service, a link to an external web page with detailed information about it.
@@ -45,9 +45,9 @@
 - [x] Does any of the submitted XSL documents use a choose type conditional element?
 - [x] Does any of the submitted XSL documents use an if type conditional element?
 - [x] Does any of the submitted XSL documents use the xsl:variable element with a different purpose than the one stated in point 2?
-- [ ] Level of usefulness and amount of comments added to the XML document.
-- [ ] Level of usefulness and amount of comments added to the XML schema.
-- [ ] Level of usefulness and amount of comments added to the XSL documents.
+- [x] Level of usefulness and amount of comments added to the XML document.
+- [x] Level of usefulness and amount of comments added to the XML schema.
+- [x] Level of usefulness and amount of comments added to the XSL documents.
 - [x] Has code indentation been defined in the XML document, XML schema and XSL documents?
 - [x] Contribution of each team member to the tasks of the team. For this, observation techniques by the teacher and self-evaluation and coevaluation surveys will be used. This section will take into account the attendance of each student during the development of the project.
 
@@ -58,8 +58,8 @@
 - [x] The creator of the GitHub repository will invite the teacher of their group \(CJ-LEMA-GRUPO, where GROUP identifies the teacher's group of students: DW1A, DW1B, DW1BI, SI1, SI1I\), as a contributor to the repository and with full permissions over it.
 - [x] The name of the users committing to the GitHub repository must allow the identity of the member of the project team committing to the repository to be deduced.
 - [x] Each member of the project team shall have made at least 1 commit to the GitHub repository.
-- [ ] The GitHub repository shall record at least 5 commits made on different days prior to the submission of the
-project. (4 done)
+- [x] The GitHub repository shall record at least 5 commits made on different days prior to the submission of the
+project. (5 done)
 - [x] The GitHub repository will have two branches: the main branch (the one that will be assessed by the teaching staff) and another one called develop (where the members of the project team will work on the development of the project by making a series of commits).
 - [ ] When publishing the final commit, do so from the main branch of the local repository, merging the contents of the develop branch into the main branch. The last commit of the develop branch must include a validation message that includes at least the word "final".
 - [ ] The URL of the GitHub repository where the project solution has been published has been indicated in the Moodle task of the project.
